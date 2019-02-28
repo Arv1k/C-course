@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/arv1k/CLionProjects/C-course/stack_pp/stack_pp.cpp
+stack_pp.h
+/home/arv1k/CLionProjects/C-course/stack_pp/stack_pp.h
+
+/home/arv1k/CLionProjects/C-course/stack_pp/stack_pp.h
+cstdio
+-
+cassert
+-
+cstdlib
+-
+cstring
+-
+cmath
+-
+
