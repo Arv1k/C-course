@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/arv1k/CLionProjects/Cpp-course/vector/main.cpp
+vector.h
+/home/arv1k/CLionProjects/Cpp-course/vector/vector.h
+
+/home/arv1k/CLionProjects/Cpp-course/vector/vector.h
+cstdio
+-
+cassert
+-
+cstdlib
+-
+cstring
+-
+
