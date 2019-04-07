@@ -43,10 +43,10 @@ RM = /home/arv1k/CLion/clion-2018.3.4/bin/cmake/linux/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/arv1k/CLionProjects/C-course/stack_pp
+CMAKE_SOURCE_DIR = /home/arv1k/CLionProjects/Cpp-course/stack_pp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/arv1k/CLionProjects/C-course/stack_pp/cmake-build-debug
+CMAKE_BINARY_DIR = /home/arv1k/CLionProjects/Cpp-course/stack_pp/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/stack_pp.dir/depend.make
@@ -59,29 +59,29 @@ include CMakeFiles/stack_pp.dir/flags.make
 
 CMakeFiles/stack_pp.dir/main.cpp.o: CMakeFiles/stack_pp.dir/flags.make
 CMakeFiles/stack_pp.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/arv1k/CLionProjects/C-course/stack_pp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/stack_pp.dir/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stack_pp.dir/main.cpp.o -c /home/arv1k/CLionProjects/C-course/stack_pp/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/arv1k/CLionProjects/Cpp-course/stack_pp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/stack_pp.dir/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stack_pp.dir/main.cpp.o -c /home/arv1k/CLionProjects/Cpp-course/stack_pp/main.cpp
 
 CMakeFiles/stack_pp.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/stack_pp.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/arv1k/CLionProjects/C-course/stack_pp/main.cpp > CMakeFiles/stack_pp.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/arv1k/CLionProjects/Cpp-course/stack_pp/main.cpp > CMakeFiles/stack_pp.dir/main.cpp.i
 
 CMakeFiles/stack_pp.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/stack_pp.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/arv1k/CLionProjects/C-course/stack_pp/main.cpp -o CMakeFiles/stack_pp.dir/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/arv1k/CLionProjects/Cpp-course/stack_pp/main.cpp -o CMakeFiles/stack_pp.dir/main.cpp.s
 
 CMakeFiles/stack_pp.dir/stack_pp.cpp.o: CMakeFiles/stack_pp.dir/flags.make
 CMakeFiles/stack_pp.dir/stack_pp.cpp.o: ../stack_pp.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/arv1k/CLionProjects/C-course/stack_pp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/stack_pp.dir/stack_pp.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stack_pp.dir/stack_pp.cpp.o -c /home/arv1k/CLionProjects/C-course/stack_pp/stack_pp.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/arv1k/CLionProjects/Cpp-course/stack_pp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/stack_pp.dir/stack_pp.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stack_pp.dir/stack_pp.cpp.o -c /home/arv1k/CLionProjects/Cpp-course/stack_pp/stack_pp.cpp
 
 CMakeFiles/stack_pp.dir/stack_pp.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/stack_pp.dir/stack_pp.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/arv1k/CLionProjects/C-course/stack_pp/stack_pp.cpp > CMakeFiles/stack_pp.dir/stack_pp.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/arv1k/CLionProjects/Cpp-course/stack_pp/stack_pp.cpp > CMakeFiles/stack_pp.dir/stack_pp.cpp.i
 
 CMakeFiles/stack_pp.dir/stack_pp.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/stack_pp.dir/stack_pp.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/arv1k/CLionProjects/C-course/stack_pp/stack_pp.cpp -o CMakeFiles/stack_pp.dir/stack_pp.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/arv1k/CLionProjects/Cpp-course/stack_pp/stack_pp.cpp -o CMakeFiles/stack_pp.dir/stack_pp.cpp.s
 
 # Object files for target stack_pp
 stack_pp_OBJECTS = \
@@ -95,7 +95,7 @@ stack_pp: CMakeFiles/stack_pp.dir/main.cpp.o
 stack_pp: CMakeFiles/stack_pp.dir/stack_pp.cpp.o
 stack_pp: CMakeFiles/stack_pp.dir/build.make
 stack_pp: CMakeFiles/stack_pp.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/arv1k/CLionProjects/C-course/stack_pp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable stack_pp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/arv1k/CLionProjects/Cpp-course/stack_pp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable stack_pp"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/stack_pp.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -108,6 +108,6 @@ CMakeFiles/stack_pp.dir/clean:
 .PHONY : CMakeFiles/stack_pp.dir/clean
 
 CMakeFiles/stack_pp.dir/depend:
-	cd /home/arv1k/CLionProjects/C-course/stack_pp/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/arv1k/CLionProjects/C-course/stack_pp /home/arv1k/CLionProjects/C-course/stack_pp /home/arv1k/CLionProjects/C-course/stack_pp/cmake-build-debug /home/arv1k/CLionProjects/C-course/stack_pp/cmake-build-debug /home/arv1k/CLionProjects/C-course/stack_pp/cmake-build-debug/CMakeFiles/stack_pp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/arv1k/CLionProjects/Cpp-course/stack_pp/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/arv1k/CLionProjects/Cpp-course/stack_pp /home/arv1k/CLionProjects/Cpp-course/stack_pp /home/arv1k/CLionProjects/Cpp-course/stack_pp/cmake-build-debug /home/arv1k/CLionProjects/Cpp-course/stack_pp/cmake-build-debug /home/arv1k/CLionProjects/Cpp-course/stack_pp/cmake-build-debug/CMakeFiles/stack_pp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/stack_pp.dir/depend
 

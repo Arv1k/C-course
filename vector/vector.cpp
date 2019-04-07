@@ -1,66 +1,43 @@
 #include "vector.h"
 
-Vector::Vector():
-    data_(nullptr),
-    capacity_(0),
-    size_(0) {}
+void* operator new[](size_t size, size_t line, const char* nameFile, const char* nameFunc, void* remem) {
+    void* memory = nullptr;
 
-Vector::~Vector() {
-    delete [] data_;
-    data_ = nullptr;
-    capacity_ = yad_capacity;
-    size_ = yad_size;
+    FILE* logS = fopen("logFile.txt", "a+");
+
+    if (!remem) {
+        memory = calloc(size, 1);
+        fprintf(logS, "Memory allocation.\n");
+    }
+
+    else {
+        memory = realloc(remem, size);
+        fprintf(logS, "Memory reallocation!\n");
+    }
+
+    fprintf(logS, "#\tLine %lu\n"
+                  "#\tfunction %s\n"
+                  "#\tfile %s\n"
+                  "#\tsize %lu byte\n"
+                  "#\ton address %p\n\n", line, nameFunc,nameFile, size, memory);
+
+    fclose(logS);
+
+    return memory;
 }
 
-Vector::Vector(size_t cap):
-    data_(new int [cap]),
-    capacity_(cap),
-    size_(0) {}
+void operator delete[](void* mem) {
+    assert(mem);
 
-int& Vector::at(size_t index) {
-    assert(0 <= index && index <= capacity_);
+    FILE* logS = fopen("logFile.txt", "a+");
 
-    return data_[index];
-}
+    fprintf(logS, "Free memory.\n"
+                  "#\t address %p\n\n", mem);
 
-int& Vector::operator[](size_t index) {
-    return at(index);
-}
+    fclose(logS);
 
-void Vector::swap(Vector& that) {
-    int* tmp_data = data_;
-    data_ = that.data_;
-    that.data_ = tmp_data;
-
-    size_t tmp_cap = capacity_;
-    capacity_ = that.capacity_;
-    that.capacity_ = tmp_cap;
-
-    size_t tmp_size = size_;
-    size_ = that.size_;
-    that.size_ = tmp_size;
-}
-
-void Vector::operator=(const Vector& that) {
-    Vector tmp;
-    tmp.copy(that);
-    swap(tmp);
-}
-
-void Vector::copy(const Vector& that) {
-    delete [] data_;
-
-    data_ = new int [that.capacity_];
-    memcpy(data_, that.data_, sizeof(*that.data_) * that.size_);
-
-    capacity_ = that.capacity_;
-    size_ = that.size_;
+    free(mem);
 }
 
 
-/*
-void* Vector::operator new(size_t size, size_t line) {
-    fprintf(stdout, "object, line %lu", line);
 
-    return malloc(size);
-}*/

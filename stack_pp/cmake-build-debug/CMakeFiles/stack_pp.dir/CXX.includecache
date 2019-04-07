@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/arv1k/CLionProjects/C-course/stack_pp/stack_pp.cpp
+/home/arv1k/CLionProjects/Cpp-course/stack_pp/main.cpp
 stack_pp.h
-/home/arv1k/CLionProjects/C-course/stack_pp/stack_pp.h
+/home/arv1k/CLionProjects/Cpp-course/stack_pp/stack_pp.h
 
-/home/arv1k/CLionProjects/C-course/stack_pp/stack_pp.h
+/home/arv1k/CLionProjects/Cpp-course/stack_pp/stack_pp.h
 cstdio
 -
 cassert

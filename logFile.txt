@@ -1,0 +1,57 @@
+object, line 16, function Vector::Vector(size_t), file /home/arv1k/CLionProjects/Cpp-course/vector/vector.cpp
+object, line 16, function Vector::Vector(size_t), file /home/arv1k/CLionProjects/Cpp-course/vector/vector.cpp
+object, line 53, function Vector::Vector(const Vector&), file /home/arv1k/CLionProjects/Cpp-course/vector/vector.cpp
+object, line 16, function Vector::Vector(size_t), file /home/arv1k/CLionProjects/Cpp-course/vector/vector.cpp
+object, line 16, function Vector::Vector(size_t), file /home/arv1k/CLionProjects/Cpp-course/vector/vector.cpp
+object, line 53, function Vector::Vector(const Vector&), file /home/arv1k/CLionProjects/Cpp-course/vector/vector.cpp
+object, line 16, function Vector::Vector(size_t), file /home/arv1k/CLionProjects/Cpp-course/vector/vector.cpp
+object, line 16, function Vector::Vector(size_t), file /home/arv1k/CLionProjects/Cpp-course/vector/vector.cpp
+object, line 53, function Vector::Vector(const Vector&), file /home/arv1k/CLionProjects/Cpp-course/vector/vector.cpp
+object, line 16, function Vector::Vector(size_t), file /home/arv1k/CLionProjects/Cpp-course/vector/vector.cpp
+object, line 16, function Vector::Vector(size_t), file /home/arv1k/CLionProjects/Cpp-course/vector/vector.cpp
+object, line 53, function Vector::Vector(const Vector&), file /home/arv1k/CLionProjects/Cpp-course/vector/vector.cpp
+object, line 16, function Vector::Vector(size_t), file /home/arv1k/CLionProjects/Cpp-course/vector/vector.cpp
+object, line 16, function Vector::Vector(size_t), file /home/arv1k/CLionProjects/Cpp-course/vector/vector.cpp
+object, line 53, function Vector::Vector(const Vector&), file /home/arv1k/CLionProjects/Cpp-course/vector/vector.cpp
+object, line 16, function Vector::Vector(size_t), file vector.cpp
+object, line 16, function Vector::Vector(size_t), file vector.cpp
+object, line 53, function Vector::Vector(const Vector&), file vector.cpp
+object, line 16, function Vector::Vector(size_t), file vector.cpp
+object, line 16, function Vector::Vector(size_t), file vector.cpp
+object, line 53, function Vector::Vector(const Vector&), file vector.cpp
+object, line 13, function Vector::Vector(size_t), file /home/arv1k/CLionProjects/Cpp-course/vector/vector.cpp
+object, line 13, function Vector::Vector(size_t), file /home/arv1k/CLionProjects/Cpp-course/vector/vector.cpp
+object, line 50, function Vector::Vector(const Vector&), file /home/arv1k/CLionProjects/Cpp-course/vector/vector.cpp
+Allocation of the memory.
+Line 14, function Vector::Vector(size_t), file /home/arv1k/CLionProjects/Cpp-course/vector/vector.cpp, on address 0x560934ed7e70
+
+Allocation of the memory.
+Line 14, function Vector::Vector(size_t), file /home/arv1k/CLionProjects/Cpp-course/vector/vector.cpp, on address 0x560934ed8150
+
+Allocation of the memory.
+Line 14, function Vector::Vector(size_t), file /home/arv1k/CLionProjects/Cpp-course/vector/vector.cpp, on address 0x56302a92ee70
+
+Allocation of the memory.
+Line 14, function Vector::Vector(size_t), file /home/arv1k/CLionProjects/Cpp-course/vector/vector.cpp, on address 0x56302a92f150
+
+Allocation of the memory.
+Line 14, function Vector::Vector(size_t), file /home/arv1k/CLionProjects/Cpp-course/vector/vector.cpp, on address 0x5609254f9e70
+
+Allocation of the memory.
+Line 14, function Vector::Vector(size_t), file /home/arv1k/CLionProjects/Cpp-course/vector/vector.cpp, on address 0x5609254fa150
+
+Allocation of the memory.
+Line 14, function Vector::Vector(size_t), file /home/arv1k/CLionProjects/Cpp-course/vector/vector.cpp, on address 0x55b49a0e5e70
+
+Allocation of the memory.
+Line 14, function Vector::Vector(size_t), file /home/arv1k/CLionProjects/Cpp-course/vector/vector.cpp, on address 0x55b49a0e6150
+
+Allocation of the memory.
+Line 14, function Vector::Vector(size_t), file /home/arv1k/CLionProjects/Cpp-course/vector/vector.cpp, on address 0x561c17fc9e70
+
+Allocation of the memory.
+Line 14, function Vector::Vector(size_t), file /home/arv1k/CLionProjects/Cpp-course/vector/vector.cpp, on address 0x561c17fca150
+
+Allocation of the memory.
+Line 52, function Vector::Vector(const Vector&), file /home/arv1k/CLionProjects/Cpp-course/vector/vector.cpp, on address 0x561c17fca610
+

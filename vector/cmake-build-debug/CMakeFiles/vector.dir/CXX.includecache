@@ -10,6 +10,10 @@
 vector.h
 /home/arv1k/CLionProjects/Cpp-course/vector/vector.h
 
+/home/arv1k/CLionProjects/Cpp-course/vector/vector.cpp
+vector.h
+/home/arv1k/CLionProjects/Cpp-course/vector/vector.h
+
 /home/arv1k/CLionProjects/Cpp-course/vector/vector.h
 cstdio
 -
@@ -18,5 +22,7 @@ cassert
 cstdlib
 -
 cstring
+-
+utility
 -
 

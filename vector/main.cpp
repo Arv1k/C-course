@@ -1,25 +1,25 @@
 #include "vector.h"
 
 int main() {
-    Vector hey(10);
-    Vector you(10);
+    Vector<char> hey;
+    Vector<char> you;
 
-    for(int i = 1; i <= 10; i++) {
-        hey[i - 1] = i * 2;
-    }
+    for(int i = 1; i <= 10; i++)
+        hey.pushBack(i*2);
 
-    hey.size_ = 10;
+    for(int i = 1; i <= 5; i++)
+        you.pushBack(i*3);
 
-    for(int i = 0; i < 10; i++)  {
-        printf("hey: [%d] = %d \t\t you: [%d] = %d\n", i, hey[i], i, you[i]);
-    }
+
+    for(int i = 0; i < 10; i++)
+        printf("hey: [%d] = %d\n", i, hey[i]);
 
     printf("\n\n");
-    you = hey;
 
-    hey[4] = 999;
+    //Vector man(you + hey);
 
-    for(int i = 0; i < 10; i++)  {
-        printf("hey: [%d] = %d \t\t you: [%d] = %d\n", i, hey[i], i, you[i]);
-    }
+    Vector<char> man = hey + you;
+
+    for(int i = 0; i < 10; i++)
+        printf("man: [%d] = %d\n", i, man[i]);
 }

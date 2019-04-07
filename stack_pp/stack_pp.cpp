@@ -13,7 +13,7 @@ void Stack::Push(data_t val) {
     this->Data_[Size_++] = val;
 }
 
-data_t Stack::Pop() {
+data_t  Stack::Pop() {
     return this->Data_[--Size_];
 }
 
