@@ -1,0 +1,3 @@
+/home/arv1k/CLionProjects/Cpp-course/game_sfml/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/arv1k/CLionProjects/Cpp-course/game_sfml/cmake-build-debug/CMakeFiles/game_sfml.dir
+/home/arv1k/CLionProjects/Cpp-course/game_sfml/cmake-build-debug/CMakeFiles/edit_cache.dir

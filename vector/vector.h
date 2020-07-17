@@ -8,7 +8,7 @@
 #include <cstdlib>
 #include <cstring>
 #include <utility>
-
+#include <stdexcept>
 
 template <typename T>
 class Vector {
@@ -27,13 +27,8 @@ public:
     Vector(const Vector& that);
     ~Vector();
 
-    friend Vector<T> operator+(const Vector<T>& right, const Vector<T>& left) {
-        Vector<T> tmp(right);
-
-        tmp += left;
-
-        return tmp;
-    }
+    template <typename U>
+    friend Vector<U> operator+(const Vector<U>& right, const Vector<U>& left);
 
     Vector<T>& operator+=(const Vector& that);
     Vector<T>& operator=(Vector that);
@@ -43,13 +38,23 @@ public:
     void popBack();
 };
 
+template <typename T>
+Vector<T> operator+(const Vector<T>& right, const Vector<T>& left) {
+    Vector<T> tmp(right);
+
+    tmp += left;
+
+    return tmp;
+}
+
 
 const size_t yad_capacity = 1607;
 const size_t yad_size = 1109;
 
-
+void* zatkniss = (void*)13;
+void* operator new[](size_t size) noexcept (false) {return zatkniss;};
 void* operator new[](size_t size, size_t line, const char* nameFile, const char* nameFunc, void* remem = nullptr);
-void operator delete[](void* mem);
+void  operator delete[] (void* mem) noexcept (true);
 
 
 #define mem_info __LINE__, __FILE__, __PRETTY_FUNCTION__

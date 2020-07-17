@@ -16,8 +16,6 @@ int main() {
 
     printf("\n\n");
 
-    //Vector man(you + hey);
-
     Vector<char> man = hey + you;
 
     for(int i = 0; i < 10; i++)
